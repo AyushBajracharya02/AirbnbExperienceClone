@@ -1,0 +1,57 @@
+@font-face {
+    font-family: poppins-thin;
+    src: url(../Fonts/Poppins-Thin.ttf);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 94%;
+    width: 33%;
+    gap: 2%;
+    position: relative;
+}
+
+.card>img{
+    height: 100%;
+    border-radius: .5em;
+}
+
+.ratings{
+    font-family: poppins-thin;
+    display: flex;
+    height: 7%;
+    align-items: center;
+    margin-top: 1%;
+    justify-content: space-around;
+    padding-right: 30%;
+}
+
+.ratings>img{
+    height: 90%;
+}
+
+.rating1{
+    color: #222222;
+}
+
+.rating2{
+    color: #918E9B;
+}
+
+p{
+    color: #222222;
+}
+
+.soldout{
+    font-family: poppins-thin;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 2%;
+    left: 2%;
+    border-radius: .3em;
+    font-weight: bold;
+    padding: 2%;
+    font-size: small;
+    color: white;
+}

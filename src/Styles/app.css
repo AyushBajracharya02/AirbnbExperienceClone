@@ -1,0 +1,16 @@
+.app{
+    height: 90%;
+    width: 40%;
+    border-radius: .5em;
+}
+
+.cards{
+    border-radius: 0 0 .5em .5em;
+    background-color: white;
+    padding: 5% 0 0 7%;
+    height: 60%;
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    gap: 3%;
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: poppins-medium;
+    src: url(../Fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: poppins-thin;
+    src: url(../Fonts/Poppins-Thin.ttf);
+}
+
+.info{
+    background-color: white;
+    padding: 2% 7%;
+}
+
+h1{
+    font-family: poppins-medium;
+    margin: 0;
+    text-shadow: 0.1em .15em .2em rgba(0, 0, 0, .3);
+}
+
+p{
+    font-size: .85em;
+    font-family: poppins-thin;
+    line-height: 1.3em;
+    margin: 0;
+}

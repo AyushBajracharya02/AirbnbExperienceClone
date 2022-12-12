@@ -1,0 +1,38 @@
+.photos{
+    padding: 3% 13% 0 13%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1%;
+    background-color: white;
+}
+
+.photos>div{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 2%;
+}
+
+.photos>div>img{
+    width: 100%;
+    border-radius: .6em;
+}
+
+.photos-1{
+    justify-content: center;
+    padding-bottom: 8%;
+}
+
+.photos-2{
+    justify-content: center;
+    padding-bottom: 12%;
+}
+
+.photos-3{
+    justify-content: flex-end;
+}
+
+.photos-5{
+    justify-content: flex-end;
+}
